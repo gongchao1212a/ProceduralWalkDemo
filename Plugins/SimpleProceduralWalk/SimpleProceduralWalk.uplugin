@@ -1,0 +1,36 @@
+{
+	"FileVersion": 3,
+	"Version": 9,
+	"VersionName": "1.3.0",
+	"FriendlyName": "Simple Procedural Walk",
+	"Description": "A plugin to provide (robotic) creatures with procedural walk animations.",
+	"Category": "Animation",
+	"CreatedBy": "xDedic",
+	"CreatedByURL": "http://www.misultin.com",
+	"DocsURL": "http://www.misultin.com/simple-procedural-walk",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/8a28b64a488448d2bb1bf46d7d36d858",
+	"SupportURL": "support@misultin.com",
+	"EngineVersion": "4.27.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "SimpleProceduralWalk",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32"
+			]
+		},
+		{
+			"Name": "SimpleProceduralWalkEditor",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64",
+				"Win32"
+			]
+		}
+	]
+}
