@@ -7,7 +7,7 @@ set "UBT_PATH=C:\Depot\Engine\ue4_rg\Engine\Binaries\DotNET\UnrealBuildTool.exe"
 
 
 :: 执行 UBT 生成命令
-"%UBT_PATH%" -projectfiles -project="F:\ProceduralWalkDemo\ProceduralWalkDemo.uproject" -game -engine -progress -2019
+"%UBT_PATH%" -projectfiles -project="F:\ProceduralWalkDemo\ProceduralWalkDemo.uproject" -game -engine -progress -2022
 
 if %ERRORLEVEL% EQU 0 (
     echo.
